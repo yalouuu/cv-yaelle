@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon site CV</title>
+    <div class="scroll-progress"></div>
+</head>
+
+<body>
+    <header>
+        <div class="gradientmobile"></div>
+        <input type="checkbox" id="burger" class="burger-toggle">
+
+        <label for="burger" class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="navbar">
+            <ul class="navmenu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#competence">Compétences</a></li>
+                <li><a href="#atout">Atouts</a></li>
+                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#formation">Formations</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="carte">
+        <section class="accueil" id="accueil">
+            <h1 class="prenom-nom">Yaëlle Pélerin</h1>
+            <img src="profil.jpg" alt="Photo de profil" class="photo-profil"><br>
+            <h2 id="typewriter" class="presentation">
+                Développeuse Web | Étudiante en Bachelor Informatique 
+            </h2>
+            <p class="intro">
+                Curieuse et motivée par le besoin de comprendre, j'avance dans mes études de développement web avec
+                rigueur et détermination.
+            </p>
+            <div class="contact-info">
+                <p class="contact-item" onclick="window.location.href='mailto:yaelle.pelerin@my-digital-school.org'">
+                    📧
+                    yaelle.pelerin@my-digital-school.org</p>
+                <p class="contact-item" onclick="window.location.href='tel:+33 6 61 68 38 84'">📱 +33 6 61 68 38 84
+                </p>
+                <p class="contact-item">📍 Montauban • France</p>
+                <p class="contact-item"
+                    onclick="window.open('https://www.linkedin.com/in/yaelle-pelerin-7177b617a/', '_blank', 'noopener,noreferrer')">
+                    💼 LinkedIn
+                </p>
+            </div>
+        </section>
+
+        <section class="competence" id="competence">
+            <h2 class="titre-partie">Mes compétences</h2>
+            <div class="skill">
+                <div class="skills-container1">
+                    <h3 class="sous-partie">Langages de Programmation</h3>
+                    <hr>
+                    <p class="skill-item">JavaScript</p>
+                    <p class="skill-item">HTML</p>
+                    <p class="skill-item">CSS</p>
+                </div>
+                <div class="skills-container2">
+                    <h3 class="sous-partie">Logiciels</h3>
+                    <hr>
+                    <p class="skill-item">Photoshop</p>
+                    <p class="skill-item">Illustrator</p>
+                    <p class="skill-item">Figma</p>
+                </div>
+                <div class="skills-container3">
+                    <h3 class="sous-partie">Langues</h3>
+                    <hr>
+                    <p class="skill-item">Francais</p>
+                    <p class="skill-item">Anglais B2</p>
+                    <p class="skill-item">Espagnol (notions)</p>
+                </div>
+            </div>
+            <div class="photo">
+                <img src="code.jpg" alt="Photo de code" class="photo-travail">
+                <img src="work.jpg" alt="Photo en travaillant" class="photo-travail">
+            </div>
+        </section>
+
+        <section class="atout" id="atout">
+            <h2 class="titre-partie">Mes atouts</h2>
+            <div class="qualite">
+                <p class="qi1">Rigueur</p>
+                <p class="qi2">Adaptabilité</p>
+                <p class="qi3">Organisation</p>
+                <p class="qi4">Créativité</p>
+                <p class="qi5">Curiosité</p>
+                <p class="qi6">Travail en équipe</p>
+            </div>
+
+        </section>
+
+        <section class="experience" id="experience">
+            <h2 class="titre-partie">Mes expériences</h2>
+            <div class="travail">
+                <!--EXPÉRIENCE 1-->
+                <div class="experience-card1">
+                    <h3 class="sous-partie">Employée Drive</h3>
+                    <div class="entreprise">Intermarché • Montech</div>
+                    <div class="date">Mai 2025 - Septembre 2025</div>
+                    <hr>
+                    <p class="poste">
+                        Préparation des commandes clients, association et entreprise.
+                        Livraison des commandes.
+                        Encaissement des commandes.
+                    </p>
+                    <hr>
+                    <h4 class="liste-comp">Compétences acquises</h4>
+                    <p class="c-acquise">Travail en équipe</p>
+                    <p class="c-acquise">Relation client</p>
+                    <p class="c-acquise">Gestion encaissement</p>
+                </div>
+
+                <!--EXPÉRIENCE 2-->
+                <div class="experience-card2">
+                    <h3 class="sous-partie">Réserviste en Gendarmerie</h3>
+                    <div class="entreprise">Gendarmerie • Rennes</div>
+                    <div class="date">Octobre 2020 - Octobre 2024</div>
+                    <hr>
+                    <p class="poste">
+                        Renfort des brigades.
+                        Contact avec la population et les entreprises.
+                        Intervention sur divers évènements.
+                    </p>
+                    <hr>
+                    <h4 class="liste-comp">Compétences acquises</h4>
+                    <p class="c-acquise">Gestion de la pression</p>
+                    <p class="c-acquise">Adaptabilité</p>
+                    <p class="c-acquise">Résilience</p>
+                </div>
+
+                <!--EXPÉRIENCE 3-->
+                <div class="experience-card3">
+
+                    <h3 class="sous-partie">Employée polyvalente</h3>
+                    <div class="entreprise">Super U • Noyal-Chatillon-sur-Seiche</div>
+                    <div class="date">Novembre 2022 - Octobre 2024</div>
+                    <hr>
+                    <p class="poste">
+                        Mise en rayon.
+                        Gestion des stocks et des commandes.
+                        Gestion de l’implantation et de l’attractivité du rayon.
+                    </p>
+                    <hr>
+                    <h4 class="liste-comp">Compétences acquises</h4>
+                    <p class="c-acquise">Sens de l'organisation</p>
+                    <p class="c-acquise">Relation client</p>
+                    <p class="c-acquise">Efficacité</p>
+                </div>
+
+
+                <!--EXPÉRIENCE 4-->
+                <div class="experience-card4">
+                    <h3 class="sous-partie">Hôtesse de caisse et d'accueil</h3>
+                    <div class="entreprise">Leclerc • Vern sur Seiche</div>
+                    <div class="date">Juin 2019 - Août 2022</div>
+                    <hr>
+                    <p class="poste">
+                        Gestion des encaissements.
+                        Gestion des retours client.
+                        Entretien du poste de travail.
+                        Gestion de la location de véhicules.
+                    </p>
+                    <hr>
+                    <h4 class="liste-comp">Compétences acquises</h4>
+                    <p class="c-acquise">Polyvalence</p>
+                    <p class="c-acquise">Fiabilité</p>
+                    <p class="c-acquise">Gestion d'une caisse</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="formation" id="formation">
+            <h2 class="titre-partie">Mes formations</h2>
+            <div class="etude">
+                <div class="etude-card1">
+                    <h3 class="sous-partie">My Digital School</h3>
+                    <div class="entreprise">EduService • Labège</div>
+                    <div class="date">Septembre 2025 - En cours</div>
+                    <hr>
+                    <p class="description">
+                        Formation des métiers du web, avec une spécialisation dans l'informatique.
+                    </p>
+                    <hr>
+                    <p class="information">Bachelor Informatique</p>
+                </div>
+                <div class="etude-card2">
+                    <h3 class="sous-partie">École de la Gendarmerie</h3>
+                    <div class="entreprise">Montlucon</div>
+                    <div class="date">Octobre 2024 - Février 2025 (Non finalisée)</div>
+                    <hr>
+                    <p class="description">
+                        Formation théorique et pratique au métier de Sous-Officier de la Gendarmerie.
+                    </p>
+                    <hr>
+                    <p class="information">Sous-Officier</p>
+                </div>
+                <div class="etude-card3">
+                    <h3 class="sous-partie">Licence STAPS</h3>
+                    <div class="entreprise">Université Rennes II • Rennes</div>
+                    <div class="date">Séptembre 2019 - Février 2022 (Non finalisée)</div>
+                    <hr>
+                    <p class="description">
+                        Formation initiale dans le sport, avec spécialité dans le sport adapté.
+                    </p>
+                    <hr>
+                    <p class="information">Spécialité APAS</p>
+                </div>
+                <div class="etude-card4">
+                    <h3 class="sous-partie">Baccalauréat </h3>
+                    <div class="entreprise">Lycée René Descartes • Rennes</div>
+                    <div class="date">Septembre 2017 - Juillet 2019</div>
+                    <hr>
+                    <p class="description">
+                        Baccalauréat Économique et social, spécialité siences politiques.
+                    </p>
+                    <hr>
+                    <p class="information">Économique et Social</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="titre-partie">Me contacter</h2>
+
+            <div class="contact-formulaire">
+                <form id="contact-form" class="contact-form">
+                    <div class="formulaire-groupe">
+                        <label for="name">Nom complet *</label>
+                        <input type="text" id="name" name="name" required placeholder="Votre nom">
+                    </div>
+
+                    <div class="formulaire-groupe">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="votre.email@exemple.com">
+                    </div>
+
+                    <div class="formulaire-groupe">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78">
+                    </div>
+
+                    <div class="formulaire-groupe">
+                        <label for="subject">Sujet *</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Objet de votre message">
+                    </div>
+
+                    <div class="formulaire-groupe">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required
+                            placeholder="Votre message..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Envoyer</span>
+                        <span class="btn-loader" style="display: none;">Envoi en cours...</span>
+                    </button>
+                    <div id="formulaire-reponse" class="formulaire-reponse"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-site">
+    <div class="footer-content">
+        <p class="footer-text">Merci d’avoir parcouru mon CV en ligne.</p>
+        <p class="footer-text">Disponible pour stages et alternances en développement web.</p>
+        <p class="footer-text">© 2025 Yaëlle Pélerin. Tous droits réservés.</p>
+        <div class="footer-links">
+            <a href="#accueil">Haut de page</a>
+            <a href="mailto:yaelle.pelerin@my-digital-school.org">Me contacter</a>
+            <a href="https://www.linkedin.com/in/yaelle-pelerin-7177b617a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+    </div>
+</footer>
+    <script>
+        //fermer le buger
+        document.querySelectorAll('.navmenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('burger').checked = false;
+            });
+        });
+
+
+        //formulaire de contact
+        document.addEventListener('DOMContentLoaded', function () {
+            const contactForm = document.getElementById('contact-form');
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    const form = e.target;
+                    const submitBtn = form.querySelector('.submit-btn');
+                    const btnText = submitBtn.querySelector('.btn-text');
+                    const btnLoader = submitBtn.querySelector('.btn-loader');
+                    const formMessage = document.getElementById('formulaire-reponse');
+
+                    submitBtn.disabled = true;
+                    btnText.style.display = 'none';
+                    btnLoader.style.display = 'inline';
+                    formMessage.style.display = 'none';
+                    formMessage.className = 'formulaire-reponse';
+
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const phone = document.getElementById('phone').value;
+                    const subject = document.getElementById('subject').value;
+                    const message = document.getElementById('message').value;
+
+                    console.log('--- Nouveau message de contact ---');
+                    console.log('Nom :', name);
+                    console.log('Email :', email);
+                    console.log('Téléphone :', phone);
+                    console.log('Sujet :', subject);
+                    console.log('Message :', message);
+
+                    setTimeout(function () {
+                        formMessage.textContent = '✓ Message envoyé ! Je vous répondrai dans les plus brefs délais.';
+                        formMessage.className = 'formulaire-reponse success';
+                        formMessage.style.display = 'block';
+
+                        form.reset();
+
+                        submitBtn.disabled = false;
+                        btnText.style.display = 'inline';
+                        btnLoader.style.display = 'none';
+
+                        setTimeout(function () {
+                            formMessage.style.display = 'none';
+                        }, 5000);
+                    }, 1500);
+                });
+            } else {
+                console.error('Formulaire non trouvé !');
+            }
+        });
+
+        // Scroll progress bar
+        window.addEventListener('scroll', () => {
+            const progressBar = document.querySelector('.scroll-progress');
+            const windowHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = (window.scrollY / windowHeight);
+            progressBar.style.transform = `scaleX(${scrolled})`;
+        });
+
+
+
+
+        //animation texte
+        const h2 = document.getElementById("typewriter");
+        const fullText = h2.textContent.trim();
+
+        h2.textContent = "";
+
+        let index = 0;
+        const speed = 80;
+
+        function typeWriter() {
+            if (index < fullText.length) {
+                h2.textContent += fullText.charAt(index);
+                index++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", typeWriter);
+    </script>
+</body>
+
+</html>
